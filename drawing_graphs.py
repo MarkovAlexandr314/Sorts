@@ -18,7 +18,7 @@ plt.plot(size, data["QuickSortRandPivot"], color='aqua', label='QuickSortRandPiv
 plt.plot(size, data["CountingSort"], color='lime', label='CountingSort')
 plt.plot(size[:int(len(size)/10)], data["SelectionSort"], color='green', label='SelectionSort')
 
-plt.plot(size[:5], data["BubbleSort"][:5], color='b', label='BubbleSort')
+plt.plot(size[:6], data["BubbleSort"][:6], color='b', label='BubbleSort')
 
 
 plt.xlabel('Size of array')
