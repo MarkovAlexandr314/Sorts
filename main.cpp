@@ -11,6 +11,8 @@
 #include "sorting\BubbleSort.h"
 #include "sorting\CountingSort.h"
 #include "sorting\QuickSortRandPivot.h"
+#include "sorting\GnomeSort.h"
+
 
 using namespace std;
 
@@ -99,6 +101,9 @@ int main()
 
     outputFile << "\"SelectionSort\": [";
     GetData(outputFile, SelectionSort, BEGIN, END/10, STEP);
+
+    outputFile << "\"GnomeSort\": [";
+    GetData(outputFile, GnomeSort, BEGIN, END/10, STEP);
 
     // дабавляем размеры массивов
     outputFile << "\"size\": [";

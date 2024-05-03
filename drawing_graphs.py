@@ -17,6 +17,7 @@ plt.plot(size, data["MergeSort"], color='r', label='MergeSort')
 plt.plot(size, data["QuickSortRandPivot"], color='aqua', label='QuickSortRandPivot')
 plt.plot(size, data["CountingSort"], color='lime', label='CountingSort')
 plt.plot(size[:int(len(size)/10)], data["SelectionSort"], color='green', label='SelectionSort')
+plt.plot(size[:7], data["GnomeSort"][:7], color='cornflowerblue', label='GnomeSort')
 
 plt.plot(size[:6], data["BubbleSort"][:6], color='b', label='BubbleSort')
 
